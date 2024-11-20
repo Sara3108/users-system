@@ -1,0 +1,12 @@
+<mat-card class="user-card" (click)="navigateToUserDetails(user.id)">
+    <mat-card-header>
+      <div mat-card-avatar>
+        <img [src]="user.avatar" alt="{{ user.first_name }}" class="avatar" />
+      </div>
+      <mat-card-title>{{
+        user.first_name + " " + user.last_name
+      }}</mat-card-title>
+      <mat-card-subtitle>User ID: {{ user.id }}</mat-card-subtitle>
+      <mat-card-subtitle>{{ user.email }}</mat-card-subtitle>
+    </mat-card-header>
+</mat-card>

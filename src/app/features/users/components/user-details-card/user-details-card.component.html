@@ -1,0 +1,14 @@
+<mat-card class="profile-details mat-elevation-z3">
+    <img
+      class="profile-image"
+      [src]="user.avatar"
+      alt="Profile"
+    />
+    <div class="profile-info">
+      <h2>{{user.first_name + ' ' + user.last_name}}</h2>
+      <mat-card-content>
+          <p>User ID: {{ user.id }}</p>
+          <p>User Email: {{ user.email }}</p>
+      </mat-card-content>
+    </div>
+  </mat-card>

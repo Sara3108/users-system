@@ -1,0 +1,28 @@
+.user-card {
+    background-color: #EDFBFD;
+    width: 300px;
+    cursor: pointer;
+
+    .mat-mdc-card-avatar {
+        width: 80px;
+        height: 80px;
+    }
+
+    .mat-mdc-card-header {
+        padding: 25px 15px;
+    }
+
+    .mat-mdc-card-title {
+        padding: 8px 20px;
+    }
+
+    .mat-mdc-card-subtitle {
+        padding: 4px 20px;
+    }
+
+    .avatar {
+        border-radius: 50%;
+        width: 80px;
+        height: 80px;
+    }
+}
